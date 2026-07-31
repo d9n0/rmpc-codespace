@@ -1,0 +1,5 @@
+{
+  "name": "rmpc-dev",
+  "image": "://microsoft.com",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y libssl-dev pkg-config tools && cargo install rmpc"
+}
